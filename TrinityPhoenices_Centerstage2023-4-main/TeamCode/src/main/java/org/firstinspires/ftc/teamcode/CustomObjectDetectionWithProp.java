@@ -47,7 +47,7 @@ import java.util.List;
  * Use Android Studio to Copy this Class, and Paste it into your team's code folder with a new name.
  * Remove or comment out the @Disabled line to add this OpMode to the Driver Station OpMode list.
  */
-@TeleOp(name = "Concept: Custom Object Detection With Team Prop", group = "Concept")
+@Autonomous(name = "ObjectDetection - Red", group = "Concept")
 
 public class CustomObjectDetectionWithProp extends LinearOpMode {
     private static final String TFOD_MODEL_ASSET = "model_20231127_165853.tflite";
